@@ -40,4 +40,5 @@ class LogoutInteractorTest {
         // check that the user was logged out
         assertNull(userRepository.getCurrentUsername());
     }
+
 }
